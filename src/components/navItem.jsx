@@ -51,7 +51,7 @@ export default function NavItems(){
                 <Form className="d-flex">
                   <Form.Control
                     type="search"
-                    placeholder="Search"
+                    placeholder="enter Agent name/location"
                     className="me-2"
                     aria-label="Search"
                   />
@@ -75,7 +75,6 @@ export default function NavItems(){
                 <Link to="/Login"><li>Login </li></Link>
                 <PersonOutlineSharpIcon />
             </div>
-            <div id="google_translate_element"></div>
 
         </div>
 
