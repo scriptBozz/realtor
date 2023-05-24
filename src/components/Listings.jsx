@@ -48,8 +48,8 @@ export default function Listings({result}){
             <span><DomainIcon/>office space</span>
             
             </div>
-            <div>
-               <div></div>
+        <div>
+               
          <TextField
                 id="standard-helperText"
                 label="Location"
