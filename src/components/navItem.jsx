@@ -15,7 +15,7 @@ export default function NavItems(){
     return <div className="Nav-Items">
 
         <>
-      {[false, 'sm', 'md', ].map((expand) => (
+      {[false ].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
             <Navbar.Brand href="#">Realtor</Navbar.Brand>
@@ -32,10 +32,10 @@ export default function NavItems(){
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">About</Nav.Link>
+                  <Nav.Link href="#action1">About</Nav.Link>
+                  <Nav.Link href="#action2">Listings</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Agents"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item href="#action3">Agents</NavDropdown.Item>
@@ -55,7 +55,7 @@ export default function NavItems(){
                     className="me-2"
                     aria-label="Search"
                   />
-                  <Button variant="outline-success">Search for Agents</Button>
+                  <Button variant="outline-success">Search</Button>
                 </Form>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
