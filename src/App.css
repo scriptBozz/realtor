@@ -2,6 +2,12 @@ h1,
 h3 {
   font-family: "Dancing Script", cursive;
 }
+.link {
+  color: #fff;
+}
+.link:hover {
+  color: #00f;
+}
 
 button {
   width: 100px;
