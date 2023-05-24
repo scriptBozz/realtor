@@ -8,7 +8,7 @@ import PhoneEnabledSharpIcon from '@mui/icons-material/PhoneEnabledSharp';
 export default function Footer(){
     return <div className="footer-div">
 
-            <form>
+            <div><form>
                 <label>
                     <TextField id="standard-basic" label="enter your name" variant="standard" type="text" name="name" style={{width:"400px",margin:"5px", color:"black"}} />
                 </label>
@@ -29,7 +29,8 @@ export default function Footer(){
                         <br/>
                         <button className="btn"style={{marginLeft:"3px"}}>REACH OUT</button>
       
-            </form>
+            </form></div>
+            
 
        <div>
         <h1 style={{fontSize:"60px",color:"#1f203a"}}>Realtor</h1>
