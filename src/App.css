@@ -35,7 +35,7 @@ button {
 .menu-items {
   display: flex;
   gap: 20px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   border-bottom: 3px solid gray !important;
   background-color: #1f203a;
