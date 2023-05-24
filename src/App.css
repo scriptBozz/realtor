@@ -155,6 +155,7 @@ section p {
 .listing-result {
   border: 1px solid gray;
   background-color: #fdb338;
+  border-radius: 2px;
 }
 
 /* .App {
