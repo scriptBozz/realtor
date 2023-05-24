@@ -69,10 +69,10 @@ export default function NavItems(){
             <h2 className="logo-text menu-item1">Realtor</h2>
             <div className="menu-items2">
                 
-                <Link to=""><li>Home</li></Link>
-                <Link to="/Listings"><li>Listings</li></Link>
+                <Link to="" style={{ color: '#FFF' }}><li>Home</li></Link>
+                <Link to="/Listings" style={{ color: '#FFF' }}><li>Listings</li></Link>
                 <button className=""><PhoneInTalkIcon/></button>
-                <Link to="/Login"><li>Login </li></Link>
+                <Link to="/Login" style={{ color: '#FFF' }}><li>Login </li></Link>
                 <PersonOutlineSharpIcon />
             </div>
 
