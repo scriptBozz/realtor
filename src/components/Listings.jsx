@@ -20,7 +20,6 @@ import DomainIcon from '@mui/icons-material/Domain';
 import AddHomeIcon from '@mui/icons-material/AddHome';
 import AddHomeWorkSharpIcon from '@mui/icons-material/AddHomeWorkSharp';
 
-
 const ExpandMore = styled((props) => {
         const { expand, ...other } = props;
         return <IconButton {...other} />;
@@ -42,17 +41,15 @@ export default function Listings({result}){
     
 
     return  <div>
-
-         <div className="listing-search-div">
+        <div className="listing-search-div">
             <div className="nav-bar2-icons">
             <span><AddHomeIcon/> Home</span>
             <span><AddHomeWorkSharpIcon/> Apertment</span>
             <span><DomainIcon/>office space</span>
             
             </div>
-        </div>
-        <hr/>
-        <div className="listing-search-div">
+            <div>
+               <div></div>
          <TextField
                 id="standard-helperText"
                 label="Location"
@@ -63,14 +60,15 @@ export default function Listings({result}){
                 focused="true"
                 onChange={onChangeHandler}
             />
-            <p> {search}: {results.length} Listed</p>
+            <p className="listing-result"> {search} {results.length} LISTED</p>
+            </div>
             </div>
         <div className="listings-div">
         {results.map((house) => { return  <Card sx={{ maxWidth: 300 }}>
                 <CardHeader
                     avatar={
                     <Avatar sx={{ bgcolor: yellow[500] }} aria-label="listing">
-                        A
+                        {house.title.charAt(0) }
                     </Avatar>
                     }
                     action={
