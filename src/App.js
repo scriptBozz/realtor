@@ -84,7 +84,7 @@ const properties = [
   }
 ];
 
-
+document.title = "Realtor";
 
 function App() {
   // const [searchInput, setSearchInput] = useState("");
