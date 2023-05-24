@@ -17,7 +17,7 @@ button {
 .btn {
   width: 200px;
   padding: 10px;
-  background-color: #fdb338;
+  background-color: #fdb338 !important;
   color: rgb(17, 16, 16);
   border: 1px solid rgb(240, 233, 233);
   border-radius: 2px;
