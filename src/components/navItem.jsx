@@ -18,7 +18,7 @@ export default function NavItems(){
       {[false ].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">Realtor</Navbar.Brand>
+            <Navbar.Brand href="#"></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -38,7 +38,7 @@ export default function NavItems(){
                     title="Agents"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Agents</NavDropdown.Item>
+                    <NavDropdown.Item href="#action3">...</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
                       View Agents
                     </NavDropdown.Item>
