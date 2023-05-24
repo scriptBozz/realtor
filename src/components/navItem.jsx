@@ -27,7 +27,7 @@ export default function NavItems(){
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Realtor
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
