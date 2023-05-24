@@ -48,6 +48,7 @@ export default function Listings({result}){
             <span><DomainIcon/>office space</span>
             
             </div>
+            <div>
          <TextField
                 id="standard-helperText"
                 label="Location"
@@ -59,6 +60,7 @@ export default function Listings({result}){
                 onChange={onChangeHandler}
             />
             <p className="listing-result"> {search}: {results.length} listings.</p>
+            </div>
             </div>
         <div className="listings-div">
         {results.map((house) => { return  <Card sx={{ maxWidth: 300 }}>
