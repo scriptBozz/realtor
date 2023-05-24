@@ -62,6 +62,7 @@ button {
 }
 .listing-search-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
