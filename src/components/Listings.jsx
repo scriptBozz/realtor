@@ -56,7 +56,7 @@ export default function Listings({result}){
                 <CardHeader
                     avatar={
                     <Avatar sx={{ bgcolor: yellow[500] }} aria-label="listing">
-                        A
+                        {house.title.charAt(0) }
                     </Avatar>
                     }
                     action={
