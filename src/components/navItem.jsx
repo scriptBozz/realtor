@@ -74,7 +74,7 @@ export default function NavItems(){
                 <li>Studio</li>
                 <li>Family</li>
                 <li>Condo </li>
-                <Tooltip disableFocusListener title="consult our agents"><PhoneInTalkIcon/></Tooltip>
+                <Tooltip disableFocusListener title="consult with an agent"><PhoneInTalkIcon/></Tooltip>
                
             </div>
 
