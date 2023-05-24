@@ -151,6 +151,12 @@ section p {
   justify-content: space-between;
 }
 
+/******** LISTINGS PAGE  ******/
+.listing-result {
+  border: 1px solid gray;
+  background-color: #fdb338;
+}
+
 /* .App {
   text-align: center;
 }

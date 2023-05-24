@@ -39,6 +39,12 @@ export default function Listings({result}){
 
     return  <div>
         <div className="listing-search-div">
+            <div className="nav-bar2-icons">
+            <span><AddHomeIcon/> Home</span>
+            <span><AddHomeWorkSharpIcon/> Apertment</span>
+            <span><DomainIcon/>office space</span>
+            
+            </div>
          <TextField
                 id="standard-helperText"
                 label="Location"
@@ -49,7 +55,7 @@ export default function Listings({result}){
                 focused="true"
                 onChange={onChangeHandler}
             />
-            <p>Total listings: {search}: {results.length}</p>
+            <p className="listing-result"> {search}: {results.length} listings.</p>
             </div>
         <div className="listings-div">
         {results.map((house) => { return  <Card sx={{ maxWidth: 300 }}>
