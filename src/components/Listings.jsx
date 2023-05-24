@@ -59,7 +59,7 @@ export default function Listings({result}){
                 focused="true"
                 onChange={onChangeHandler}
             />
-            <p className="listing-result"> {search}: {results.length} listings.</p>
+            <p className="listing-result"> {search} {results.length} LISTED</p>
             </div>
             </div>
         <div className="listings-div">
